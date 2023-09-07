@@ -3,15 +3,26 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="MercyGIS LLC." />
+    <meta property="og:description" content="Automating GIS Workflows" />
+    <meta property="og:image" content="favicon-MercyGISLLC-transparent.png" />
     <title>MercyGIS LLC.</title>
     <link
       rel="icon"
       type="image/png"
       href="favicon-MercyGISLLC-transparent.png"/>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
       html, body {
         min-height: 100%;
+      }
+      a:link {
+        color: white;
+      }
+
+      a:visited {
+        color: lightgray;
       }
     </style>
   </head>
@@ -34,6 +45,9 @@
                 <a class="nav-link active" aria-current="page" href="#home">Home</a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#contact">Contact</a>
               </li>
             </ul>
@@ -42,18 +56,72 @@
     </div>
     <div class="container-fluid">
       <div id="home" class="row">
-        <div class="col-sm-5 bg-warning border border-white">
-          <image class="rounded img-fluid mx-auto d-block" src="kevin-mercy-headshot.jpg" alt="Headshot of Kevin Mercy at USGIF GEOINT Conferences presenting a paper in 2019.">
+        <div class="col-12 bg-dark p-3 text-center text-white">
+          <h2>Home</h2>
         </div>
-        <div class="col-sm-7 text-center p-1 bg-warning border border-white">
-          <p>Kevin Mercy is a Geospatial Professional and here is his bio.</p>
+        <div class="col-sm-5 bg-secondary pt-3 pb-3">
+          <image class="rounded img-fluid mx-auto d-block border border-white" src="kevin-mercy-headshot.jpg" alt="Headshot of Kevin Mercy at USGIF GEOINT Conferences presenting a paper in 2019.">
+        </div>
+        <div class="col-sm-7 text-justify text-white bg-secondary p-3">
+          <h5 class="pt-1">Education and Early Career</h5>
+          <p>Kevin Mercy, Owner and Founder of MercyGIS LLC., is a trained GIS Analyst, 
+            GIS Developer, and Software Engineer. At the beginning of Kevin’s career at the University of 
+            Southern California, Kevin worked as a Research Associate in the University of Southern California Spatial 
+            Sciences Institute and Archaeology Research Center and learned many skills at the core of GIS Analysis and
+             GIS Environmental Research. Kevin gained experience working with vector GIS data, raster GIS data, 3D GIS 
+             data (i.e ladar, lidar, photogrammetric images, point clouds, etc.), and worked mainly using commercial Esri ArcGIS Desktop products to perform analysis 
+             for many interdisciplinary projects. One of the main takeaways from his early career was the difficulty in
+              working with high resolution datasets within commercial Esri ArcGIS Desktop software.</p>
+            <h5>Influence of Software Engineering and Advanced Technologies</h5>
+            <p>
+              There were always many ways to accomplish geoprocessing workflows using Esri ArcGIS Desktop Products 
+              and local computing; however, the computers crashed often, or it seemed that it would take forever to
+               compute solutions. At this point, Kevin shifted to study computer science and software engineering to 
+               learn how to leverage more advanced scripting, web, and cloud technologies to process or investigate GIS
+                data. Through his further study and career progression, Kevin learned Python, JavaScript, HTML, CSS, 
+                and C++ and begin to work on scripting geoprocessing routines using the Esri arcpy module, and also
+                 with open-source Python libraries such as GDAL, PDAL, geopandas, and rasterio. Upon advancing his 
+                 knowledge in scripting and software engineering, Kevin gained expansive skills in automation of GIS 
+                 geoprocessing tasks and imagery analysis and exposure to high performance and cloud computing 
+                 technologies.
+            </p>
+            <h5>Founding of MerrcyGIS LLC.</h5>
+            <p>
+              Through MercyGIS LLC., owner and founder Kevin Mercy provides consulting services in GIS Analysis, 
+              GIS Development, and Software Engineering. Kevin seeks to assist clients in making custom tools, 
+              scripts, or programs to run geoprocessing tools at scale, or to deploy GIS tasks in high performance 
+              computing, web, or cloud environments. Although Kevin specializes in GIS data, Kevin is also a 
+              full-stack software engineer with experience in setting up databases and designing front-end user 
+              interfaces, and a Python and C++ developer. He also works on general software engineering projects
+              in Python, JavaScript/HTML/CSS, and C++ outside of GIS. 
+            </p>
+        </div>
+      </div>
+      <div id="services" class="row">
+        <div class="col-12 bg-dark p-3 text-center text-white">
+          <h2>Services</h2>
         </div>
       </div>
       <div id="contact" class="row">
-        <div class="col-12 bg-dark border border-white">
-          <h5 class="text-white p-1 text-center">This is my contact information</h5>
-          <h5 class="text-white p-1 text-center">Email: kevn.mercy@gmail.com</h5>
-          <h5 class="text-white p-1 text-center">Email: linkedin: xxxxxxxxxx</h5>
+        <div class="col-12 bg-dark p-3 text-center text-white">
+          <h2>Contact</h2>
+        </div>
+        <div class="col-12 bg-secondary text-center p-3">
+          <br>
+          <i class="fa fa-envelope" aria-hidden="true" style="font-size:36px;"></i>
+          <a href="mailto:kevn.mercy@gmail.com" target="_blank">kevn.mercy@gmail.com</a>
+          <br>
+          <br>
+          <i class="fa fa-linkedin-square" aria-hidden="true" style="font-size:36px;"></i>
+          <a href="https://www.linkedin.com/in/kevinmercyllc/" target="_blank">Kevin Mercy Linkedin</a>
+          <br>
+          <br>
+          <i class="fa fa-github" aria-hidden="true" style="font-size:36px;"></i>
+          <a href="https://github.com/kmercyUSCSSI" target="_blank">Kevin Mercy Github</a>
+          <br>
+        </div>
+        <div class="col-12 bg-dark text-center text-white">
+          <i class="fa fa-copyright" aria-hidden="true" style="font-size:12px;color:white;"> MercyGIS LLC. </i>
         </div>
       </div>
     </div>
